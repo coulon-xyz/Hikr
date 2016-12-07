@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9CA6AE41DF85E3400620139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA6AE31DF85E3400620139 /* AppDelegate.swift */; };
+		F9CA6AE61DF85E3400620139 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA6AE51DF85E3400620139 /* ViewController.swift */; };
+		F9CA6AE91DF85E3400620139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CA6AE71DF85E3400620139 /* Main.storyboard */; };
+		F9CA6AEC1DF85E3400620139 /* Hikr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9CA6AEA1DF85E3400620139 /* Hikr.xcdatamodeld */; };
+		F9CA6AEE1DF85E3400620139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9CA6AED1DF85E3400620139 /* Assets.xcassets */; };
+		F9CA6AF11DF85E3400620139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CA6AEF1DF85E3400620139 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9CA6AE01DF85E3400620139 /* Hikr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hikr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CA6AE31DF85E3400620139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9CA6AE51DF85E3400620139 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9CA6AE81DF85E3400620139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9CA6AEB1DF85E3400620139 /* Hikr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hikr.xcdatamodel; sourceTree = "<group>"; };
+		F9CA6AED1DF85E3400620139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9CA6AF01DF85E3400620139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9CA6AF21DF85E3400620139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9CA6ADD1DF85E3400620139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9CA6AD71DF85E3400620139 = {
+			isa = PBXGroup;
+			children = (
+				F9CA6AE21DF85E3400620139 /* Hikr */,
+				F9CA6AE11DF85E3400620139 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9CA6AE11DF85E3400620139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9CA6AE01DF85E3400620139 /* Hikr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9CA6AE21DF85E3400620139 /* Hikr */ = {
+			isa = PBXGroup;
+			children = (
+				F9CA6AE31DF85E3400620139 /* AppDelegate.swift */,
+				F9CA6AE51DF85E3400620139 /* ViewController.swift */,
+				F9CA6AE71DF85E3400620139 /* Main.storyboard */,
+				F9CA6AED1DF85E3400620139 /* Assets.xcassets */,
+				F9CA6AEF1DF85E3400620139 /* LaunchScreen.storyboard */,
+				F9CA6AF21DF85E3400620139 /* Info.plist */,
+				F9CA6AEA1DF85E3400620139 /* Hikr.xcdatamodeld */,
+			);
+			path = Hikr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9CA6ADF1DF85E3400620139 /* Hikr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9CA6AF51DF85E3400620139 /* Build configuration list for PBXNativeTarget "Hikr" */;
+			buildPhases = (
+				F9CA6ADC1DF85E3400620139 /* Sources */,
+				F9CA6ADD1DF85E3400620139 /* Frameworks */,
+				F9CA6ADE1DF85E3400620139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hikr;
+			productName = Hikr;
+			productReference = F9CA6AE01DF85E3400620139 /* Hikr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9CA6AD81DF85E3400620139 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = CoulonXYZ;
+				TargetAttributes = {
+					F9CA6ADF1DF85E3400620139 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 473YMXZK9K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F9CA6ADB1DF85E3400620139 /* Build configuration list for PBXProject "Hikr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9CA6AD71DF85E3400620139;
+			productRefGroup = F9CA6AE11DF85E3400620139 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9CA6ADF1DF85E3400620139 /* Hikr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9CA6ADE1DF85E3400620139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CA6AF11DF85E3400620139 /* LaunchScreen.storyboard in Resources */,
+				F9CA6AEE1DF85E3400620139 /* Assets.xcassets in Resources */,
+				F9CA6AE91DF85E3400620139 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9CA6ADC1DF85E3400620139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CA6AEC1DF85E3400620139 /* Hikr.xcdatamodeld in Sources */,
+				F9CA6AE61DF85E3400620139 /* ViewController.swift in Sources */,
+				F9CA6AE41DF85E3400620139 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9CA6AE71DF85E3400620139 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9CA6AE81DF85E3400620139 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9CA6AEF1DF85E3400620139 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9CA6AF01DF85E3400620139 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9CA6AF31DF85E3400620139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9CA6AF41DF85E3400620139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9CA6AF61DF85E3400620139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 473YMXZK9K;
+				INFOPLIST_FILE = Hikr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.coulon.Hikr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F9CA6AF71DF85E3400620139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 473YMXZK9K;
+				INFOPLIST_FILE = Hikr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.coulon.Hikr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9CA6ADB1DF85E3400620139 /* Build configuration list for PBXProject "Hikr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CA6AF31DF85E3400620139 /* Debug */,
+				F9CA6AF41DF85E3400620139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9CA6AF51DF85E3400620139 /* Build configuration list for PBXNativeTarget "Hikr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CA6AF61DF85E3400620139 /* Debug */,
+				F9CA6AF71DF85E3400620139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9CA6AEA1DF85E3400620139 /* Hikr.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9CA6AEB1DF85E3400620139 /* Hikr.xcdatamodel */,
+			);
+			currentVersion = F9CA6AEB1DF85E3400620139 /* Hikr.xcdatamodel */;
+			path = Hikr.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F9CA6AD81DF85E3400620139 /* Project object */;
+}
