@@ -7,23 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3553414B56AA52EB27CBD07 /* Pods_Hikr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DEA97570F4F8EB5376C9F2 /* Pods_Hikr.framework */; };
 		F9CA6AE41DF85E3400620139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA6AE31DF85E3400620139 /* AppDelegate.swift */; };
-		F9CA6AE61DF85E3400620139 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA6AE51DF85E3400620139 /* ViewController.swift */; };
 		F9CA6AE91DF85E3400620139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CA6AE71DF85E3400620139 /* Main.storyboard */; };
 		F9CA6AEC1DF85E3400620139 /* Hikr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9CA6AEA1DF85E3400620139 /* Hikr.xcdatamodeld */; };
 		F9CA6AEE1DF85E3400620139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9CA6AED1DF85E3400620139 /* Assets.xcassets */; };
 		F9CA6AF11DF85E3400620139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CA6AEF1DF85E3400620139 /* LaunchScreen.storyboard */; };
+		F9CA6AF91DF85F0F00620139 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9CA6AF81DF85F0F00620139 /* GoogleService-Info.plist */; };
+		F9CA6AFB1DF8602400620139 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA6AFA1DF8602400620139 /* LoginController.swift */; };
+		F9CA6AFD1DF8615C00620139 /* Extension.UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA6AFC1DF8615C00620139 /* Extension.UIColor.swift */; };
+		F9CA6B021DF86A3800620139 /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA6B011DF86A3800620139 /* LoginController+handlers.swift */; };
+		F9CA6B041DF86BF800620139 /* Extension.String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA6B031DF86BF700620139 /* Extension.String.swift */; };
+		F9CA6B071DF957C600620139 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA6B061DF957C600620139 /* ViewController.swift */; };
+		F9CA6B091DF957F000620139 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA6B081DF957F000620139 /* SettingsViewController.swift */; };
+		F9CA6B0B1DF9616C00620139 /* RecordHikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA6B0A1DF9616C00620139 /* RecordHikeViewController.swift */; };
+		F9CA6B151DF99F5E00620139 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CA6B141DF99F5E00620139 /* MapKit.framework */; };
+		F9D8242F1DFB27AE00CE593F /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8242E1DFB27AE00CE593F /* LocationDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8A7211A0DBA382FB5CE4C3E /* Pods-Hikr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hikr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hikr/Pods-Hikr.release.xcconfig"; sourceTree = "<group>"; };
+		E04517728D05062A52644240 /* Pods-Hikr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hikr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hikr/Pods-Hikr.debug.xcconfig"; sourceTree = "<group>"; };
+		E0DEA97570F4F8EB5376C9F2 /* Pods_Hikr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hikr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CA6AE01DF85E3400620139 /* Hikr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hikr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CA6AE31DF85E3400620139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9CA6AE51DF85E3400620139 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9CA6AE81DF85E3400620139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9CA6AEB1DF85E3400620139 /* Hikr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hikr.xcdatamodel; sourceTree = "<group>"; };
 		F9CA6AED1DF85E3400620139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9CA6AF01DF85E3400620139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9CA6AF21DF85E3400620139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9CA6AF81DF85F0F00620139 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F9CA6AFA1DF8602400620139 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		F9CA6AFC1DF8615C00620139 /* Extension.UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.UIColor.swift; sourceTree = "<group>"; };
+		F9CA6B011DF86A3800620139 /* LoginController+handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
+		F9CA6B031DF86BF700620139 /* Extension.String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.String.swift; sourceTree = "<group>"; };
+		F9CA6B051DF87E7000620139 /* Hikr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hikr.entitlements; sourceTree = "<group>"; };
+		F9CA6B061DF957C600620139 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9CA6B081DF957F000620139 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F9CA6B0A1DF9616C00620139 /* RecordHikeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordHikeViewController.swift; sourceTree = "<group>"; };
+		F9CA6B141DF99F5E00620139 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F9D8242E1DFB27AE00CE593F /* LocationDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9CA6B151DF99F5E00620139 /* MapKit.framework in Frameworks */,
+				D3553414B56AA52EB27CBD07 /* Pods_Hikr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71C207C0BF2A5DA4A52813F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E04517728D05062A52644240 /* Pods-Hikr.debug.xcconfig */,
+				A8A7211A0DBA382FB5CE4C3E /* Pods-Hikr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A66F20B5CF96FE02096ACA3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9CA6B141DF99F5E00620139 /* MapKit.framework */,
+				E0DEA97570F4F8EB5376C9F2 /* Pods_Hikr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F9CA6AD71DF85E3400620139 = {
 			isa = PBXGroup;
 			children = (
 				F9CA6AE21DF85E3400620139 /* Hikr */,
 				F9CA6AE11DF85E3400620139 /* Products */,
+				71C207C0BF2A5DA4A52813F6 /* Pods */,
+				A66F20B5CF96FE02096ACA3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,40 @@
 		F9CA6AE21DF85E3400620139 /* Hikr */ = {
 			isa = PBXGroup;
 			children = (
+				F9CA6B111DF9765500620139 /* Model */,
+				F9CA6AFE1DF8616A00620139 /* Helpers */,
 				F9CA6AE31DF85E3400620139 /* AppDelegate.swift */,
-				F9CA6AE51DF85E3400620139 /* ViewController.swift */,
+				F9CA6AFA1DF8602400620139 /* LoginController.swift */,
+				F9CA6B011DF86A3800620139 /* LoginController+handlers.swift */,
 				F9CA6AE71DF85E3400620139 /* Main.storyboard */,
+				F9CA6B061DF957C600620139 /* ViewController.swift */,
+				F9CA6B081DF957F000620139 /* SettingsViewController.swift */,
+				F9CA6B0A1DF9616C00620139 /* RecordHikeViewController.swift */,
 				F9CA6AED1DF85E3400620139 /* Assets.xcassets */,
 				F9CA6AEF1DF85E3400620139 /* LaunchScreen.storyboard */,
 				F9CA6AF21DF85E3400620139 /* Info.plist */,
+				F9CA6AF81DF85F0F00620139 /* GoogleService-Info.plist */,
 				F9CA6AEA1DF85E3400620139 /* Hikr.xcdatamodeld */,
+				F9CA6B051DF87E7000620139 /* Hikr.entitlements */,
 			);
 			path = Hikr;
+			sourceTree = "<group>";
+		};
+		F9CA6AFE1DF8616A00620139 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F9CA6AFC1DF8615C00620139 /* Extension.UIColor.swift */,
+				F9CA6B031DF86BF700620139 /* Extension.String.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		F9CA6B111DF9765500620139 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9D8242E1DFB27AE00CE593F /* LocationDetails.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9CA6AF51DF85E3400620139 /* Build configuration list for PBXNativeTarget "Hikr" */;
 			buildPhases = (
+				E49D5452DD2F6F7F35146C0E /* [CP] Check Pods Manifest.lock */,
 				F9CA6ADC1DF85E3400620139 /* Sources */,
 				F9CA6ADD1DF85E3400620139 /* Frameworks */,
 				F9CA6ADE1DF85E3400620139 /* Resources */,
+				A4A0366ABACB9F1B22544865 /* [CP] Embed Pods Frameworks */,
+				9A38DB3D8925A9AAAEBC72CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -94,13 +167,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CoulonXYZ;
 				TargetAttributes = {
 					F9CA6ADF1DF85E3400620139 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 473YMXZK9K;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -128,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9CA6AF11DF85E3400620139 /* LaunchScreen.storyboard in Resources */,
+				F9CA6AF91DF85F0F00620139 /* GoogleService-Info.plist in Resources */,
 				F9CA6AEE1DF85E3400620139 /* Assets.xcassets in Resources */,
 				F9CA6AE91DF85E3400620139 /* Main.storyboard in Resources */,
 			);
@@ -135,14 +220,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A38DB3D8925A9AAAEBC72CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hikr/Pods-Hikr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4A0366ABACB9F1B22544865 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hikr/Pods-Hikr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E49D5452DD2F6F7F35146C0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9CA6ADC1DF85E3400620139 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F9CA6AEC1DF85E3400620139 /* Hikr.xcdatamodeld in Sources */,
-				F9CA6AE61DF85E3400620139 /* ViewController.swift in Sources */,
+				F9CA6B041DF86BF800620139 /* Extension.String.swift in Sources */,
+				F9CA6AFD1DF8615C00620139 /* Extension.UIColor.swift in Sources */,
+				F9CA6B021DF86A3800620139 /* LoginController+handlers.swift in Sources */,
+				F9CA6B0B1DF9616C00620139 /* RecordHikeViewController.swift in Sources */,
+				F9CA6B071DF957C600620139 /* ViewController.swift in Sources */,
+				F9D8242F1DFB27AE00CE593F /* LocationDetails.swift in Sources */,
+				F9CA6AFB1DF8602400620139 /* LoginController.swift in Sources */,
 				F9CA6AE41DF85E3400620139 /* AppDelegate.swift in Sources */,
+				F9CA6B091DF957F000620139 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +326,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -208,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -236,6 +377,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -252,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -263,10 +405,13 @@
 		};
 		F9CA6AF61DF85E3400620139 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04517728D05062A52644240 /* Pods-Hikr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Hikr/Hikr.entitlements;
 				DEVELOPMENT_TEAM = 473YMXZK9K;
 				INFOPLIST_FILE = Hikr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.coulon.Hikr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,10 +421,13 @@
 		};
 		F9CA6AF71DF85E3400620139 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A7211A0DBA382FB5CE4C3E /* Pods-Hikr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Hikr/Hikr.entitlements;
 				DEVELOPMENT_TEAM = 473YMXZK9K;
 				INFOPLIST_FILE = Hikr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.coulon.Hikr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,6 +454,7 @@
 				F9CA6AF71DF85E3400620139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
